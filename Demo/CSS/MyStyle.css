@@ -1,0 +1,105 @@
+body {
+    background-color: greenyellow;
+    margin: 0;
+    padding : 0;
+    
+}
+
+.top {
+    width: 100%;
+        
+}
+
+.wel {
+    text-align: center;
+
+}
+
+.nav {
+    border: solid black 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+a {
+    margin: 4em;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+.active {
+    background-color: gray;
+}
+
+img {
+    height: 12em;
+    width: 19%;
+    
+}
+
+.pic {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.paper {
+    width: 80%;
+    background-color: hotpink;
+    color: black;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 50px;
+    border: 5px solid forestgreen;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.news {
+    text-align: center;
+    font-size: 50px;
+}
+
+.avsnitt {
+    font-size: 40px;
+    color: red;
+    border: 10px solid black;
+    text-align: center;
+    margin-top: 10px;
+    background-color: aqua;
+    width: 80%;
+    margin-left: 9%;
+}
+
+.avsnitte {
+    font-size: 40px;
+    color: navajowhite;
+    border: 10px solid green;
+    text-align: center;
+    margin-top: 20px;
+    background-color: chocolate;
+    width: 80%;
+    margin-left: 9%;
+    
+}
+
+
+
+@media only screen and (max-width: 1120px) {
+    
+    a {
+        font-size: 20px;
+    }
+    
+}
+
